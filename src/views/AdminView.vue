@@ -1,7 +1,7 @@
 <template>
   <SectionDivider />
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="admin">
+    <h1>Admin page</h1>
   </div>
 </template>
 
@@ -9,7 +9,7 @@
 import SectionDivider from "../components/divider/SectionDivider.vue"
 
 export default {
-  name: "AboutView",
+  name: "AdminView",
   components: {
     SectionDivider,
   },

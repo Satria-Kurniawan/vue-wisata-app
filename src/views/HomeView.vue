@@ -1,18 +1,19 @@
 <template>
+  <SectionDivider />
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Wisatas />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import SectionDivider from "../components/divider/SectionDivider.vue"
+import Wisatas from "../components/wisatas/Wisatas.vue"
 
 export default {
-  name: 'HomeView',
+  name: "HomeView",
   components: {
-    HelloWorld
-  }
+    Wisatas,
+    SectionDivider,
+  },
 }
 </script>

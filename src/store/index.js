@@ -1,14 +1,10 @@
-import { createStore } from 'vuex'
+import { createStore } from "vuex"
+import wisata from "./modules/wisata"
 
-export default createStore({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
+const store = createStore({
   modules: {
-  }
+    wisata,
+  },
 })
+
+export default store
