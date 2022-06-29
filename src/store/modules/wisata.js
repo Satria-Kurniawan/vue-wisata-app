@@ -13,7 +13,7 @@ const actions = {
     commit("setLoading", true)
 
     const response = await axios
-      .get("http://ilkom01.mhs.rey1024.com/api/wisata")
+      .get("https://ilkom01.mhs.rey1024.com/api/wisata")
       .finally(() => commit("setLoading", false))
 
     commit("setAllWisata", response.data.wisata)

@@ -5,7 +5,7 @@
     </div>
     <img
       :src="
-        'http://ilkom01.mhs.rey1024.com/laravel/storage/app/public/images/' +
+        'https://ilkom01.mhs.rey1024.com/laravel/storage/app/public/images/' +
         wisata.image
       "
       alt="Wisata Image"
