@@ -13,10 +13,10 @@ const actions = {
     commit("setLoading", true)
 
     const response = await axios
-      .get("https://ilkom01.mhs.rey1024.com/api/wisata")
+      .get("https://new-bali-island.000webhostapp.com/api/posts")
       .finally(() => commit("setLoading", false))
 
-    commit("setAllWisata", response.data.wisata)
+    commit("setAllWisata", response.data)
   },
 }
 const mutations = {

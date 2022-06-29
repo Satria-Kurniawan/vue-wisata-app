@@ -41,7 +41,11 @@
     <div class="row">
       <div
         v-for="wisata in wisataList.filter(
-          (wisata) => wisata.kategori.trending == '1'
+          (wisata) =>
+            wisata.category.category == 'Tren1' ||
+            wisata.category.category == 'Tren2' ||
+            wisata.category.category == 'Tren3' ||
+            wisata.category.category == 'Tren4'
         )"
         :key="wisata.id"
         class="col-lg-3"
@@ -49,8 +53,7 @@
         <div class="card card-custom border-0">
           <img
             :src="
-              'http://ilkom01.mhs.rey1024.com/laravel/storage/app/public/images/' +
-              wisata.image
+              'https://new-bali-island.000webhostapp.com/images/' + wisata.image
             "
             alt="gambar"
             class="card-img"

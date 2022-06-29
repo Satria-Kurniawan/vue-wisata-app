@@ -4,10 +4,7 @@
       <h5 class="text-center">{{ wisata.title }}</h5>
     </div>
     <img
-      :src="
-        'https://ilkom01.mhs.rey1024.com/laravel/storage/app/public/images/' +
-        wisata.image
-      "
+      :src="'https://new-bali-island.000webhostapp.com/images/' + wisata.image"
       alt="Wisata Image"
       class="card-img-top"
       style="height: 14rem"
